@@ -1,0 +1,42 @@
+
+From Imperative to Functional and declarative style of programming.
+
+
+Imperative  - We tell what and how to do - step by step
+
+Functional - is declarative - We tell what to do but not how to do
+	- We let the underlying libraries to take care of what to do
+	- Work with higher order functions - pass function to function
+	- Return function from function
+	- We create function from  function
+	- We can focus more on getting our work done 
+	- Function composition
+
+Honoring Immutability - 
+Pure function - function's with no side effect
+	When u call a function it produces an output only depending on the input
+	
+	
+Why Functional way…??
+	- Concise - easy to see and understand
+	- Code becomes more expressive
+	- Less code - fewer lines of code
+	- Easy to modify
+	- Fewer bugs
+	- Effortless to parallelize and make it efficient.
+
+	- Functional Interfaces
+	- Single Abstract Method Interfaces
+	- IntStream.range(0,10) - method given in Java 8
+
+Streams:
+
+- Streams are extreamly lazy evaluation until actually needed
+- Stream Operations:
+    eg:: filter, reduce, map, findfirst, order by, reverse, limit, sorted
+
+----------------------------------
+
+Execute Around Method Patters:
+
+
