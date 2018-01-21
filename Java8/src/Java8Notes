@@ -1,6 +1,5 @@
-
+Java 8
 From Imperative to Functional and declarative style of programming.
-
 
 Imperative  - We tell what and how to do - step by step
 
@@ -15,7 +14,6 @@ Functional - is declarative - We tell what to do but not how to do
 Honoring Immutability - 
 Pure function - function's with no side effect
 	When u call a function it produces an output only depending on the input
-	
 	
 Why Functional way…??
 	- Concise - easy to see and understand
@@ -37,6 +35,28 @@ Streams:
 
 ----------------------------------
 
-Execute Around Method Patters:
+Execute Around Method Pattern:
 
+//**lamdas will not generate any anonymmous classes
+//**invokedynamic will be used instead - since it has right method signature
+
+//Using Java8 Method References
+//Used only in office space pattern - jus pass it through without any alteration
+
+Java8DefaultInterface:
+----------------------
+FastFly.super.cruise();//If we call with super then it refers to default methods
+        //If called directly it will check for static method in interface
+
+//Default Methods Rules
+//
+// 1. Defult methods gets ingerited automatically
+// 2. We can override default methods, if not found checks for hierarchy and gets it
+// 3. Methods in class hierarchy rule
+// 4. If there is a collision between the methods
+
+//--Abstract Class vs Interface
+//Abstract class can have state but INterfacs do not have state
+//We can have fields in Abstract class but not in Interfaces
+//We cannot inherit from more than one abstract class whereas with interface we can implement many
 
